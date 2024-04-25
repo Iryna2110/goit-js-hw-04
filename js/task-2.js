@@ -1,6 +1,6 @@
 function calcAverageCalories(days) {
   let averageCalories = 0;
-  for (i = 0; i < days.length; i++) {
+  for (let i = 0; i < days.length; i++) {
     averageCalories += days[i].calories;
   }
   if (days.length >= 1) {

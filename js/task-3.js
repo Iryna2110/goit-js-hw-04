@@ -7,11 +7,11 @@ const profile = {
   },
 
   changeUserName(newUsername) {
-    profile.username = newUsername;
+    this.username = newUsername;
   },
 
 updatePlayTime(newPlayTime) {
-    profile.playTime = profile.playTime + newPlayTime;
+    this.playTime = this.playTime + newPlayTime;
   },
 }
 
