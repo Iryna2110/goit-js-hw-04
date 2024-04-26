@@ -6,7 +6,7 @@ function calcAverageCalories(days) {
   if (days.length >= 1) {
     return averageCalories / days.length;
   } else {
-    return []
+    return 0;
   }
   
 }
